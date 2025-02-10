@@ -45,3 +45,13 @@
   font-family: 'Noto Sans', Arial, sans-serif;
   @apply block text-[#4A4F54] text-[1rem] font-medium leading-6;
 }
+
+.contact-info {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  @apply mb-2 text-[#252323] text-[1.75rem] font-semibold leading-10;
+}
+
+.contact-info__item {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  @apply text-[1rem] font-medium leading-6;
+}
