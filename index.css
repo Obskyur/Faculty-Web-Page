@@ -20,3 +20,13 @@
   font-family: 'Open Sans', Arial, sans-serif;
   @apply pt-8 pr-6 pb-[38px] pl-4 text-[1.25rem] leading-6 font-bold font-stretch-condensed text-center whitespace-nowrap;
 }
+
+.hero {
+  font-family: 'Open Sans', Arial, sans-serif;
+  @apply w-[1280px] mx-auto pt-10 pb-25 bg-white;
+}
+
+.hero__content {
+  font-family: 'Noto Sans', 'Open Sans', Arial, sans-serif;
+  @apply pl-5 flex-col text-[#252323];
+}

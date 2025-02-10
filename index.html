@@ -7,12 +7,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="icon" href="./favicon.ico" type="image/vnd.microsoft.icon" />
 		<title>Venera Arnaoudova | University of Puget Sound</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75,500;1,75,500&display=swap" rel="stylesheet">
 	</head>
 	<link href="./index.css" rel="stylesheet" />
-	<body class="bg-amber-300">
-		<header class="@container h-[134px] items-center pb-[0.125rem] border-b-1 border-b-blue-50">
+	<body class="bg-amber-300 relative">
+		<header class="@container sticky top-0 left-0 z-50 h-[134px] items-center pb-[0.125rem] border-b-1 border-b-blue-50 bg-white">
 			<div  class="@container h-[40px] items-center bg-[#EBEEF2] pb-[0.125rem] border-b-1 border-b-blue-50">
         <div class="@container h-full flex justify-between items-center mx-[320px]">
           <nav class="@container w-1/3 px-[20px]">
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="@container h-[94px] mx-[320px] bg-white flex items-center">
-        <div class="@container h-full w-[198px] flex justify-start items-center">
+        <div class="@container h-full w-[198px] pl-5 flex justify-start items-center">
           <svg width="169" height="42" viewBox="0 0 169 42" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M2.00582 30.0262C2.00582 27.6996 1.96165 27.4285 0.980906 27.3148L0.265231 27.2273C0.0531786 27.1136 0.0531786 26.6064 0.309408 26.4402C1.83795 26.3265 3.65806 26.2303 5.67256 26.2303C7.68705 26.2303 8.95053 26.4664 9.92243 26.8338C11.3449 27.3585 12.7586 28.583 12.7586 30.8133C12.7586 34.583 8.92402 35.1428 7.69588 35.1428C7.41315 35.1428 7.20993 35.1428 6.9537 35.1166C6.76816 35.0029 6.72398 34.6355 6.88302 34.4956C8.80916 33.9008 9.20675 32.5364 9.20675 30.8396C9.20675 29.1428 8.32321 27.2973 6.22919 27.2973C5.37215 27.2973 5.32797 27.551 5.32797 28.4693V38.1778C5.32797 40.3206 5.46934 40.5043 6.51193 40.6617L7.25411 40.7754C7.51034 40.8891 7.51034 41.4227 7.25411 41.5539C5.95529 41.5101 4.81551 41.4839 3.70224 41.4839C2.58897 41.4839 1.47569 41.5101 0.221053 41.5539C-0.0351764 41.4139 -0.0793539 40.8891 0.176876 40.7754L0.830702 40.6617C1.87329 40.4781 2.01466 40.3206 2.01466 38.1778V30.0349L2.00582 30.0262Z" fill="#640D0D"></path>
             <path d="M16.5051 29.6151C16.5051 27.481 16.3637 27.3411 15.3212 27.1312L14.738 27.0174C14.5525 26.8775 14.526 26.3702 14.7822 26.2303C15.8955 26.274 17.0618 26.3002 18.175 26.3002C19.2883 26.3002 20.4546 26.274 21.5679 26.2303C21.7534 26.3702 21.7534 26.8775 21.5679 27.0174L21.0112 27.1049C19.9598 27.2886 19.8273 27.4723 19.8273 29.6064V34.9242C19.8273 37.618 20.1277 40.583 23.6619 40.583C26.6394 40.583 27.5407 38.0116 27.5407 34.8542V32.0728C27.5407 30.2099 27.4523 28.4606 27.1961 27.8658C26.984 27.3848 26.4716 27.2449 25.8442 27.1312L25.2169 27.0174C25.0314 26.8338 25.0755 26.3702 25.2169 26.2303C26.4716 26.274 27.3816 26.3002 28.327 26.3002C29.1841 26.3002 30.0499 26.274 30.9246 26.2303C31.066 26.3702 31.1102 26.8338 30.9246 27.0174L30.5094 27.1049C29.9086 27.2449 29.4668 27.3848 29.2547 27.8658C28.9985 28.4606 28.9013 30.2099 28.9013 32.0728V34.6443C28.9013 36.8046 28.6893 38.7813 27.417 40.1895C26.4009 41.2653 24.6956 41.8425 22.8137 41.8425C21.0466 41.8425 19.4738 41.5626 18.2104 40.5568C16.9999 39.5685 16.4963 37.8629 16.4963 35.3615V29.6064L16.5051 29.6151Z" fill="#640D0D"></path>
@@ -152,11 +152,24 @@
         </div>
       </div>
 		</header>
-		<section></section>
-		<main></main>
-		<footer>
-			<p>&copy; 2025 University of Puget Sound</p>
+		<section class="@container relative hero">
+      <div class="@container hero__content">
+        <div class="mb-[30px] flex items-center">
+          <a class="py-[9px] text-[14px] font-bold underline underline-offset-8 decoration-[3px]" href="">Faculty Directory</a>
+          <div class="ml-[10px] mt-1">
+            <svg viewBox="0 0 24 24" height="16" width="16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8 5L15.57 11.6237C15.7976 11.8229 15.7976 12.1771 15.57 12.3763L8 19" stroke="#2523234d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+          </div>
+        </div>
+        <h1 class="font-extrabold text-[40px] leading-10 mb-2">Venera Arnaoudova</h1>
+      </div>
+    </section>
+		<main class="@container w-full h-[640px] bg-[#F4F6F8]">
+
+    </main>
+		<footer class="@container w-full h-[585px] bg-[#660000]">
 		</footer>
-		<section></section>
+		<section class="@container w-full h-[100px] bg-[#4F0000] text-white">
+			<p>&copy; 2025 University of Puget Sound</p>
+    </section>
 	</body>
 </html>
