@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+.nav__util-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  @apply px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-75%;
+}
+
+.nav__util-link_profile {
+  font-family: 'Open Sans', Arial, sans-serif;
+  @apply flex px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-100% whitespace-nowrap;
+}
+
+.nav__util-dropdown {
+  font-family: 'Open Sans', Arial, sans-serif;
+  @apply px-[14px] py-[10px] text-[1rem] text-[#660000] font-medium whitespace-nowrap;
+}
+
+.nav__dropdown {
+  font-family: 'Open Sans', Arial, sans-serif;
+  @apply pt-8 pr-6 pb-[38px] pl-4 text-[1.25rem] leading-6 font-bold font-stretch-condensed text-center whitespace-nowrap;
+}
