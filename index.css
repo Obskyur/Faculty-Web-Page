@@ -30,3 +30,18 @@
   font-family: 'Noto Sans', 'Open Sans', Arial, sans-serif;
   @apply pl-5 flex-col text-[#252323];
 }
+
+.rank {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  @apply block font-semibold text-[1.75rem] leading-10;
+}
+
+.website {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  @apply text-[1rem] leading-6 font-medium text-[#660000] underline underline-offset-2;
+}
+
+.degree {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  @apply block text-[#4A4F54] text-[1rem] font-medium leading-6;
+}
