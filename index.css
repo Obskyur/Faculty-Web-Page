@@ -2,56 +2,71 @@
 @tailwind utilities;
 
 .nav__util-link {
-  font-family: 'Open Sans', Arial, sans-serif;
-  @apply px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-75%;
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-75%;
 }
 
 .nav__util-link_profile {
-  font-family: 'Open Sans', Arial, sans-serif;
-  @apply flex px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-100% whitespace-nowrap;
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply flex px-[12px] py-[11px] text-[1rem] text-[#660000] font-medium font-stretch-100% whitespace-nowrap;
 }
 
 .nav__util-dropdown {
-  font-family: 'Open Sans', Arial, sans-serif;
-  @apply px-[14px] py-[10px] text-[1rem] text-[#660000] font-medium whitespace-nowrap;
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply px-[14px] py-[10px] text-[1rem] text-[#660000] font-medium whitespace-nowrap;
 }
 
 .nav__dropdown {
-  font-family: 'Open Sans', Arial, sans-serif;
-  @apply pt-8 pr-6 pb-[38px] pl-4 text-[1.25rem] leading-6 font-bold font-stretch-condensed text-center whitespace-nowrap;
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply pt-8 pr-6 pb-[38px] pl-4 text-[1.25rem] leading-6 font-bold font-stretch-condensed text-center whitespace-nowrap;
 }
 
 .hero {
-  font-family: 'Open Sans', Arial, sans-serif;
-  @apply w-[1280px] mx-auto pt-10 pb-25 bg-white;
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply w-[1280px] mx-auto pt-10 pb-25 bg-white;
 }
 
 .hero__content {
-  font-family: 'Noto Sans', 'Open Sans', Arial, sans-serif;
-  @apply pl-5 flex-col text-[#252323];
+	font-family: "Noto Sans", "Open Sans", Arial, sans-serif;
+	@apply pl-5 flex-col text-[#252323];
 }
 
 .rank {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  @apply block font-semibold text-[1.75rem] leading-10;
+	font-family: "Noto Sans", Arial, sans-serif;
+	@apply block font-semibold text-[1.75rem] leading-10;
 }
 
 .website {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  @apply text-[1rem] leading-6 font-medium text-[#660000] underline underline-offset-2;
+	font-family: "Noto Sans", Arial, sans-serif;
+	@apply text-[1rem] leading-6 font-medium text-[#660000] underline underline-offset-2;
 }
 
 .degree {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  @apply block text-[#4A4F54] text-[1rem] font-medium leading-6;
+	font-family: "Noto Sans", Arial, sans-serif;
+	@apply block text-[#4A4F54] text-[1rem] font-medium leading-6;
 }
 
 .contact-info {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  @apply mb-2 text-[#252323] text-[1.75rem] font-semibold leading-10;
+	font-family: "Noto Sans", Arial, sans-serif;
+	@apply mb-2 text-[#252323] text-[1.75rem] font-semibold leading-10;
 }
 
 .contact-info__item {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  @apply text-[1rem] font-medium leading-6;
+	font-family: "Noto Sans", Arial, sans-serif;
+	@apply text-[1rem] font-medium leading-6;
+}
+
+.footer__link-text {
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply text-xl font-bold leading-5 text-[#fff] font-stretch-condensed flex items-center ml-[-8px] bg-[#660000];
+}
+
+.footer__menu-item {
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply flex w-[170px] h-[170px] border-[0.0625rem] border-[#FF5D43] rounded-full text-[2.5rem] font-bold leading-4 text-[#fff] font-stretch-95% justify-center items-center;
+}
+
+.footer__socials {
+	font-family: "Open Sans", Arial, sans-serif;
+	@apply flex flex-col pl-5 text-[#fff];
 }
